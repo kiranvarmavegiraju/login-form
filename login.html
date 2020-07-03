@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>login form</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+    <body>
+        <div class="hero">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button  type="button" class="toggle-btn" onclick="fun1()" >log in</button>
+                    <button  type="button" class="toggle-btn" onclick="fun2()" >register</button>
+                </div>
+                <div class="social-icons">
+                    <a href="www.facebook.com"><img src="fb.png" ></a>
+                    <a href="www.twitter.com"><img src="tw.png" ></a>
+                    <a href="www.google.com"><img src="gp.png" ></a>
+                </div>
+                <form  id="login"  class="input-group">
+                    <input type="text" class="input-field" name="n1" id="n1" placeholder="username" required>                    
+                    <input type="password"  class="input-field"name="n2" id="n2" placeholder="password" required>    
+                    <input type="checkbox" class="check-box" name="box" id="box"><span>remember password</span>
+                    <button type="submit"class="submit-btn" name="submit-btn" id="submit-btn">login</button>
+                </form>
+                <form  class="input-group" id="register">
+                    <input type="text" class="input-field" name="n1" id="n1" placeholder="fullname" required>                    
+                    <input type="email" class="input-field" name="n1" id="n1" placeholder="email id" required>                    
+                    <input type="password"  class="input-field"name="n2" id="n2" placeholder="password" required>    
+                    <input type="checkbox" class="check-box" name="box" id="box"><span id="s2">I agree terms and conditions</span>
+                    <button type="submit"class="submit-btn" name="submit-btn" id="submit-btn">register</button>
+                </form>
+
+            </div>
+        </div>
+        
+    </body>
+</html>
